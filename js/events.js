@@ -14,10 +14,10 @@ function frameIt() {
 
 function pressIt() {
   $(document).on('keydown', function(key) {
-  if(key.which == 71){
-      alert('g was pressed');
-  }
-});
+    if(key.which == 71){
+        alert('g was pressed');
+    }
+  });
 }
 
 function submitIt() {
@@ -26,14 +26,10 @@ function submitIt() {
   });
 }
 
-
-
 $(document).ready(function(){
-
 // call functions here
-getIt();
-frameIt();
-pressIt();
-submitIt();
-
+  getIt();
+  frameIt();
+  pressIt();
+  submitIt();
 });
