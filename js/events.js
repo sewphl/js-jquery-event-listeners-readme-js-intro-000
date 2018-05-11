@@ -20,7 +20,11 @@ function pressIt() {
 });
 }
 
-function submitIt() {}
+function submitIt() {
+  $(document).on('submit', function() {
+      alert('Your form is going to be submitted now.');
+  });
+}
 
 
 
